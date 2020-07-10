@@ -8,7 +8,7 @@ mark.current{
 }
 @font-face{
   font-family: 'Urban Slick';
-  src:url('public/fonts/Urban_slick.ttf')
+  src:url('../ecoWarriors/public/fonts/Urban_slick.ttf')
   format('truetype');
 }
 
