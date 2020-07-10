@@ -13,7 +13,7 @@ html {
   
   .parallax {
     /* The image used */
-    background-image: url("../public/imgs/bgd/nebula.jpg");
+    background-image: url("public/imgs/bgd/nebula.jpg");
   
     /* Full height */
     height: 100%; 
