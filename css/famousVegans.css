@@ -1,35 +1,35 @@
 @font-face{
   font-family: 'Street Wars';
-  src:url("public/fonts/Street Wars Demo.ttf")
+  src:url("../public/fonts/Street Wars Demo.ttf")
   format("truetype");
-  src:url("public/fonts/Street Wars Demo.otf")
+  src:url("../public/fonts/Street Wars Demo.otf")
   format("opentype");
 }
 @font-face{
   font-family: "Marsnev", sans-serif;
-  src:url("public/fonts/MARSNEVENEKSK-Regular.otf")
+  src:url("../public/fonts/MARSNEVENEKSK-Regular.otf")
   format("opentype");
-  src:url("public/fonts/MARSNEVENEKSK-Clean.otf")
+  src:url("../public/fonts/MARSNEVENEKSK-Clean.otf")
   format("opentype");
 }
 @font-face{
   font-family: "Street Writers", sans-serif;
-  src:url("public/fonts/Street Writers.ttf")
+  src:url("../public/fonts/Street Writers.ttf")
   format('truetype');
 }
 @font-face{
   font-family: "Stylin Break", sans-serif;
-  src:url("public/fonts/Stylin' BRK DEMO.ttf")
+  src:url("../public/fonts/Stylin' BRK DEMO.ttf")
   format("truetype");
 }
 @font-face{
   font-family: "tag type", sans-serif;
-  src:url("public/fonts/tagtype-freefont.ttf")
+  src:url("../public/fonts/tagtype-freefont.ttf")
   format("truetype");
 }
 @font-face{
   font-family: 'Urban Slick';
-  src:url('public/fonts/Urban_slick.ttf')
+  src:url('../public/fonts/Urban_slick.ttf')
   format('truetype');
 }
 
@@ -48,7 +48,7 @@ html {
 
 .parallax {
   /* The image used */
-  background-image: url("public/imgs/bgd/nebula.jpg");
+  background-image: url("../public/imgs/bgd/nebula.jpg");
 
   /* Full height */
   height: 100%; 

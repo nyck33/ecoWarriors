@@ -8,7 +8,7 @@ mark.current{
 }
 @font-face{
   font-family: 'Urban Slick';
-  src:url('../ecoWarriors/public/fonts/Urban_slick.ttf')
+  src:url('../public/fonts/Urban_slick.ttf')
   format('truetype');
 }
 
@@ -145,7 +145,7 @@ html {
 
 .parallax {
   /* The image used */
-  background-image: url("public/imgs/bgd/icebergs.jpg");
+  background-image: url("../public/imgs/bgd/icebergs.jpg");
 
   /* Full height */
   height: 100%; 
