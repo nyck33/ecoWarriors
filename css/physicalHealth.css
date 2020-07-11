@@ -48,7 +48,7 @@
   
   .parallax {
     /* The image used */
-    background-image: url("../public/imgs/bgd/nebula.jpg");
+    background-image: url("../public/imgs/anatomy/anatomicalTwo.jpg");
   
     /* Full height */
     height: 100%; 
@@ -98,6 +98,9 @@
     font-family:'Urban Slick', sans-serif;
     padding: 5%;
   }
+  h1, h2, h3, h4, h5, h6{
+    color:red;
+  }
   
   /*crop images, use % for height*/
   div > p > a > img{
@@ -121,6 +124,11 @@
   em{
     font-style: bold;
     font-size: xx-large;
+  }
+  strong{
+    font-size: xx-large;
+    font-style: bold;
+    color:lime;
   }
   .graffiti{
     font-family: "Urban Slick", sans-serif;

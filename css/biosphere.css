@@ -130,6 +130,11 @@
     font-style: bold;
     font-size: xx-large;
   }
+  strong{
+    font-size: xx-large;
+    font-style: bold;
+    color:lime;
+  }
   .graffiti{
     font-family: "Urban Slick", sans-serif;
   }
