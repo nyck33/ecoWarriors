@@ -101,10 +101,12 @@ div.starter-template {
 
 /*crop images, use % for height*/
 div > p > a > img{
-    margin:auto;
-    width:100%;
-    height: 100%;
+    display:block;
+    width:75%;
+    height: 75%;
     object-fit:cover;
+    margin-left: auto;
+    margin-right:auto;
 }
 /*enlarge on hover*/
 img#thumbnail{
