@@ -76,11 +76,18 @@ a.navbar-brand{
   margin:none;
 }
 
-div.starter-template {
+div.container {
   text-align: center;
   margin:0 auto;
   border:0 auto;
-  padding-top: 200px;
+ 
+}
+
+div.top-title{
+  text-align:center;
+  margin:0 auto;
+  border:0 auto;
+  padding-top: 250px;
 }
 
 /*grid, row then col*/
@@ -123,6 +130,10 @@ em{
 }
 .graffiti{
   font-family: "Urban Slick", sans-serif;
+}
+
+strong, h4{
+  font-size:300%;
 }
 /*inline instead of this
 body > main > div > h1 > p{
