@@ -75,19 +75,21 @@ a.navbar-brand{
   border:none;
   margin:none;
 }
-
+main.container{
+  padding-top:50px;
+}
 div.container {
   text-align: center;
   margin:0 auto; /*given a width with auto for left and right it centers*/
   border:0 auto;
- 
+  padding-top: 200px;
 }
 
 div.top-title{
   text-align:center;
   margin:0 auto;
   border:0 auto;
-  padding-top: 200px;
+  padding-top: 50px;
 }
 
 /*grid, row then col*/
@@ -95,7 +97,6 @@ div.top-title{
 .themed-grid-col {
   padding-top: 15px;
   padding-bottom: 15px;
-  
   background-color: rgba(86, 61, 124, .15);
   border: 1px solid rgba(86, 61, 124, .2);
 }
