@@ -1,0 +1,146 @@
+/*lecture 37 coursera*/
+@font-face{
+    font-family: 'Street Wars';
+    src:url("../public/fonts/'Street Wars Demo.ttf'")
+    format("truetype");
+    src:url("../public/fonts/'Street Wars Demo.otf'")
+    format("opentype");
+  }
+  @font-face{
+    font-family: "Marsnev", sans-serif;
+    src:url("../public/fonts/MARSNEVENEKSK-Regular.otf")
+    format("opentype");
+    src:url("../public/fonts/MARSNEVENEKSK-Clean.otf")
+    format("opentype");
+  }
+  @font-face{
+    font-family: "Street Writers", sans-serif;
+    src:url("../public/fonts/'Street Writers.ttf'")
+    format('truetype');
+  }
+  @font-face{
+    font-family: "Stylin Break", sans-serif;
+    src:url("../public/fonts/'Stylin' BRK DEMO.ttf'")
+    format("truetype");
+  }
+  @font-face{
+    font-family: "tag type", sans-serif;
+    src:url("../public/fonts/tagtype-freefont.ttf")
+    format("truetype");
+  }
+  @font-face{
+    font-family: 'Urban Slick';
+    src:url('../public/fonts/Urban_slick.ttf')
+    format('truetype');
+  }
+  
+  /*parallax*/
+  html {
+    height: 100%;
+    margin:0;
+    padding:0;
+  }
+  
+  @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+  
+  .parallax {
+    /* The image used */
+    background-image: url("../public/imgs/food/veganKFCStore.jpeg");
+  
+    /* Full height */
+    height: 100%; 
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    color: hotpink;
+    
+  }
+  /*starter*/
+  body {
+    height:100%;
+    font-family: 'Urban Slick', sans-serif;
+    margin:0;
+    padding:0;
+    border:0;
+  }
+  a.navbar-brand{
+    font-family: 'Urban Slick', sans-serif;
+    border:none;
+    margin:none;
+  }
+  
+  div.container {
+    text-align: center;
+    margin:0 auto; /*given a width with auto for left and right it centers*/
+    border:0 auto;
+   
+  }
+  
+  div.top-title{
+    text-align:center;
+    margin:0 auto;
+    border:0 auto;
+    padding-top: 200px;
+    
+  }
+  
+  /*grid, row then col*/
+  
+  .themed-grid-col {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    background-color: rgba(86, 61, 124, .15);
+    border: 1px solid rgba(86, 61, 124, .2);
+  }
+  
+  .quote{
+    font-family:'Urban Slick', sans-serif;
+    padding: 5%;
+  }
+  
+  /*crop images, use % for height*/
+  div > p > a > img{
+      display:block;
+      width:75%;
+      height: 75%;
+      object-fit:cover;
+      margin-left: auto;
+      margin-right:auto;
+  }
+  /*enlarge on hover*/
+  img#thumbnail{
+    opacity: 0.1;
+      filter: alpha(opacity=50);
+  }
+  img#thumbnail:hover{
+    opacity: 0.7;
+    filter: alpha(opacity=100);
+    box-shadow: 0 1px 10px 1px #cccccc;
+  }
+  /*emphasis*/
+  em{
+    font-style: bold;
+    font-size: 200%;
+  }
+  .graffiti{
+    font-family: "Urban Slick", sans-serif;
+  }
+  
+  strong, h4{
+    font-size:200%;
+  }
+  /*inline instead of this
+  body > main > div > h1 > p{
+    font-family: "Urban Slick", sans-serif;
+    font-size: large;
+  }
+  

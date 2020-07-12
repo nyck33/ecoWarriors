@@ -78,7 +78,7 @@ a.navbar-brand{
 
 div.container {
   text-align: center;
-  margin:0 auto;
+  margin:0 auto; /*given a width with auto for left and right it centers*/
   border:0 auto;
  
 }
@@ -87,7 +87,7 @@ div.top-title{
   text-align:center;
   margin:0 auto;
   border:0 auto;
-  padding-top: 250px;
+  padding-top: 200px;
 }
 
 /*grid, row then col*/
@@ -121,19 +121,20 @@ img#thumbnail{
 }
 img#thumbnail:hover{
   opacity: 0.7;
-	filter: alpha(opacity=100);
+  filter: alpha(opacity=100);
+  box-shadow: 0 1px 10px 1px #cccccc;
 }
 /*emphasis*/
 em{
   font-style: bold;
-  font-size: xx-large;
+  font-size: 200%;
 }
 .graffiti{
   font-family: "Urban Slick", sans-serif;
 }
 
 strong, h4{
-  font-size:300%;
+  font-size:200%;
 }
 /*inline instead of this
 body > main > div > h1 > p{
