@@ -135,6 +135,7 @@ div.top-title{
     font-size: xx-large;
   }
   strong, h4{
+    color: red;
     font-size:200%;
 }
   .graffiti{
