@@ -84,6 +84,12 @@
   }
   
   /*grid, row then col*/
+  div.top-title{
+    text-align:center;
+    margin:0 auto;
+    border:0 auto;
+    padding-top: 50px;
+}
   
   .themed-grid-col {
     padding-top: 15px;
@@ -126,7 +132,7 @@
     font-size: xx-large;
   }
   strong{
-    font-size: xx-large;
+    font-size: 200%;
     font-style: bold;
     color:lime;
   }

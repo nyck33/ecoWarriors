@@ -135,7 +135,14 @@ div.top-title{
     padding: 5%;
 }
 
-
+.image-100w > img{
+    margin: 0 auto;
+    width:100%;
+}
+figcaption{
+    
+    text-align: center;
+}
   
 /*emphasis*/
 em{
