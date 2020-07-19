@@ -55,7 +55,7 @@
     
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    background-position: top; /*center*/
     background-repeat: no-repeat;
     background-size: cover;
   
@@ -104,8 +104,24 @@
     font-family:'Urban Slick', sans-serif;
     padding: 5%;
   }
-  h1, h2, h3, h4, h5, h6{
-    color:red;
+  h1 strong{
+    font-size: 300%;
+    color: white;
+  }
+  h2 strong{
+    font-size: 175%;
+  }
+  h3 strong{
+    font-size: 150%;
+  } 
+  h4 strong{
+    font-size: 125%
+  } 
+  h5 strong{
+    font-size: 115%;
+  }
+  h6 strong{
+    font-size: 105%;
   }
   
   /*crop images, use % for height*/
@@ -134,10 +150,13 @@
   strong{
     font-size: 200%;
     font-style: bold;
-    color:lime;
+    color:red;
   }
   .graffiti{
     font-family: "Urban Slick", sans-serif;
+  }
+  a{
+    color: red;
   }
   /*inline instead of this
   body > main > div > h1 > p{
