@@ -107,8 +107,8 @@ div.top-title{
     height: 200px;
     margin: 0 auto 15px auto;
     padding: auto;
-  }
-  .category-tile span {
+}
+.category-tile span {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -119,15 +119,60 @@ div.top-title{
     background-color: #000;
     color: #fff;
     opacity: .8;
-  }
-  .category-tile:hover {
+}
+.category-tile:hover {
     box-shadow: 0 1px 5px 1px #cccccc;
-  }
+}
   
-  #menu-categories-title + div {
-    margin-bottom: 50px;
-  }
-  /* END MENU CATEGORIES PAGE */
+  /*for bottom maps*/
+#map-tile1, #map-tile2, #map-tile3, #map-tile4, #pic-tile1, #pic-tile2, 
+#pic-tile3, #pic-tile4 {
+    height: 450px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+#map-tile1:hover, #map-tile2:hover, #map-tile3:hover, #map-tile4:hover,
+#pic-tile1:hover, #pic-tile2:hover, #pic-tile3:hover, #pic-tile4:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#pic-tile1{
+    background: url('../public/imgs/food/veganKFCStore.jpeg') no repeat;
+    background-position: center;
+}
+
+#pic-tile2{
+    background: url('../public/imgs/food/veganKFCStore.jpeg') no repeat;
+    background-position: center;
+}
+#pic-tile3{
+    background: url('../public/imgs/food/veganKFCStore.jpeg') no repeat;
+    background-position: center;
+}
+#pic-tile4{
+    background: url('../public/imgs/food/veganKFCStore.jpeg') no repeat;
+    background-position: center;
+}
+
+#pic-tile1 span, #pic-tile2 span, #pic-tile3 span, #pic-tile4 span,
+#map-tile1 span, #map-tile2 span, #map-tile3 span, #map-tile4 span{
+    position: absolute;
+    bottom:0;
+    right:0;
+    width:100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color:#fff;
+    opacity:.8;
+}
+
+
+
 
 
 .quote{
@@ -156,8 +201,6 @@ em{
 strong, h4{
     font-size:200%;
 }
-/*inline instead of this
-body > main > div > h1 > p{
-font-family: "Urban Slick", sans-serif;
-font-size: large;
+/*inline instead of this body > main > div > h1 > p{font-family: "Urban Slick",
+sans-serif; font-size: large;
 }
