@@ -1,8 +1,9 @@
+/*bioshpere.css*/
 @font-face{
     font-family: 'Street Wars';
-    src:url("../public/fonts/'Street Wars Demo.ttf'")
+    src:url("../public/fonts/Street Wars Demo.ttf")
     format("truetype");
-    src:url("../public/fonts/'Street Wars Demo.otf'")
+    src:url("../public/fonts/Street Wars Demo.otf")
     format("opentype");
   }
   @font-face{
@@ -14,12 +15,12 @@
   }
   @font-face{
     font-family: "Street Writers", sans-serif;
-    src:url("../public/fonts/'Street Writers.ttf'")
+    src:url("../public/fonts/Street Writers.ttf")
     format('truetype');
   }
   @font-face{
     font-family: "Stylin Break", sans-serif;
-    src:url("../public/fonts/'Stylin' BRK DEMO.ttf'")
+    src:url("../public/fonts/Stylin' BRK DEMO.ttf")
     format("truetype");
   }
   @font-face{
@@ -30,6 +31,11 @@
   @font-face{
     font-family: 'Urban Slick';
     src:url('../public/fonts/Urban_slick.ttf')
+    format('truetype');
+  }
+  @font-face{
+    font-family: "bloody";
+    src:url('../public/fonts/life-in-the-fast-lane-font/LifeInTheFastLane-zoy3.ttf')
     format('truetype');
   }
   
@@ -48,18 +54,18 @@
   
   .parallax {
     /* The image used */
-    background-image: url("../public/imgs/anatomy/anatomicalTwo.jpg");
+    background-image: url("../public/imgs/bgd/clouds.jpg");
   
     /* Full height */
     height: 100%; 
     
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: top; /*center*/
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   
-    color: white;
+    
     
   }
   /*starter*/
@@ -69,6 +75,7 @@
     margin:0;
     padding:0;
     border:0;
+    color:black;
   }
   a.navbar-brand{
     font-family: 'Urban Slick', sans-serif;
@@ -76,27 +83,32 @@
     margin:none;
   }
   
-  div.starter-template {
-    text-align: center;
-    margin:0 auto;
-    border:0 auto;
-    padding-top: 200px;
+  main.container{
+    padding-top:0px;
   }
-  
-  /*grid, row then col*/
-  div.top-title{
+
+
+div.top-title{
     text-align:center;
     margin:0 auto;
     border:0 auto;
     padding-top: 50px;
 }
+
+div.author-portrait{
+    vertical-align: center;
+    margin:0 auto;
+    padding:70px;
+
+}
+  
+  /*grid, row then col*/
   
   .themed-grid-col {
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left:0;
-    padding-right:0;
     background-color: transparent;
+    /*background-color: rgba(86, 61, 124, .15);*/
     border: 1px solid rgba(86, 61, 124, .2);
   }
   
@@ -104,34 +116,13 @@
     font-family:'Urban Slick', sans-serif;
     padding: 5%;
   }
-  h1 strong{
-    font-size: 300%;
-    color: white;
-  }
-  h2 strong{
-    font-size: 175%;
-  }
-  h3 strong{
-    font-size: 150%;
-  } 
-  h4 strong{
-    font-size: 125%
-  } 
-  h5 strong{
-    font-size: 115%;
-  }
-  h6 strong{
-    font-size: 105%;
-  }
   
   /*crop images, use % for height*/
   div > p > a > img{
-      display:block;
-      width:75%;
-      height: 75%;
+      margin:auto;
+      width:100%;
+      height: 100%;
       object-fit:cover;
-      margin-left: auto;
-      margin-right:auto;
   }
   /*enlarge on hover*/
   img#thumbnail{
@@ -147,16 +138,12 @@
     font-style: bold;
     font-size: xx-large;
   }
-  strong{
-    font-size: 200%;
-    font-style: bold;
-    color:red;
-  }
+  strong, h4{
+    color: red;
+    font-size:200%;
+}
   .graffiti{
     font-family: "Urban Slick", sans-serif;
-  }
-  a{
-    color: red;
   }
   /*inline instead of this
   body > main > div > h1 > p{
