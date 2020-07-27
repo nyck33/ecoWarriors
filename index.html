@@ -10,16 +10,20 @@
     <meta name="generator" content="Jekyll v4.0.1">
     <title>Eco-Warriors Home</title>
 
-    <link rel="canonical"
-    href="https://getbootstrap.com/docs/4.5/examples/carousel/">
-
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
     <!-- Bootstrap core CSS -->
-<link href="assets/dist/css/bootstrap.css" type="text/css" rel="stylesheet">
-
-    
+    <link href="assets/dist/css/bootstrap.css" type="text/css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" type="text/css" rel="stylesheet">
+    
+    <!--https://markjs.io/-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"
+    ></script>
+    
+    <script src="js/mark.min.js" ></script>
   </head>
+  
   <body class="content parallax">
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -54,20 +58,29 @@
               <a class="nav-link" href="famousVegans.html">People</a>
             </li>
           </ul>
-          <!--https://markjs.io/-->
-          <script src="js/mark.min.js" async></script>
-          <form class="form-inline mt-2 mt-md-0">
-            <script src="js/main.js" async></script>
-            <input class="form-control mr-sm-2" type="text" placeholder="Search"
-            >
+          
+          <!--<form class="form-inline mt-2 mt-md-0">
             
+            <input class="form-control mr-sm-2" type="text" placeholder="Search"
+            aria-label="Search">-->
+            <input type="text" name="keyword" class="form-control input-sm" placeholder="search">
+            <input type="checkbox" name="opt[]" value="separateWordSearch" checked>word search
+            <input type="checkbox" name="opt[]" value="diacritics" checked> diacritics
+            <!--
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit"
             onclick="searchSite()" value="run external js">Search</button>
-          </form>
+            <button data-search="next">&darr;</button>
+            <button data-search="prev">&uarr;</button>
+            <button data-search="clear">✖</button>
+            -->
+            <!--</form>-->
           
         </div>
       </nav>
 </header>
+<!--for mark.js-->
+<div class="panel panel-default">
+<div class="panel-body context">
 
 <main role="main">
 
@@ -300,7 +313,11 @@
     <a href="#">Terms</a></p>
   </footer>
 </main>
+</div>
+</div>
+<script src="js/navbarSearch.js"></script>
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="assets/dist/js/bootstrap.bundle.js"></script>
-    </body>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="assets/dist/js/bootstrap.bundle.js"></script>
+</body>
 </html>
