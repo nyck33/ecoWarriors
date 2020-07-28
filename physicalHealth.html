@@ -15,10 +15,13 @@
 
    
     <!-- Custom styles for this template -->
-    
-    
     <link href="css/physicalHealth.css" type="text/css" rel="stylesheet">
-  </head>
+    <!--https://markjs.io/-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"
+    ></script>
+    <script src="js/mark.min.js" ></script>
+</head>
   <body class="parallax">
     
 <header>
@@ -51,19 +54,27 @@
             <a class="nav-link" href="famousVegans.html">People</a>
         </li>
         </ul>
-        <!--https://markjs.io/-->
-        <script src="js/mark.min.js" async></script>
-        <form class="form-inline mt-2 mt-md-0">
-        <script src="js/main.js" async></script>
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" >
-        
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="searchSite()" value="run external js">Search</button>
-        </form>
+        <!--<form class="form-inline mt-2 mt-md-0">
+            
+            <input class="form-control mr-sm-2" type="text" placeholder="Search"
+            aria-label="Search">-->
+            <input type="text" name="keyword" class="form-control input-sm searchbar" placeholder="search">
+            <input type="checkbox" name="opt[]"  class="nav-checkbox" value="separateWordSearch" checked>word search
+            <input type="checkbox" name="opt[]" class="nav-checkbox" value="diacritics" checked> diacritics
+            <!--
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"
+            onclick="searchSite()" value="run external js">Search</button>
+            <button data-search="next">&darr;</button>
+            <button data-search="prev">&uarr;</button>
+            <button data-search="clear">✖</button>
+            -->
+            <!--</form>-->
         
     </div>
     </nav>
 </header>
-
+<div class="panel panel-default">
+    <div class="panel-body context">
 <main role="main" class="container">
     <div class="container parallax top-title">
         <div class="row mb-3">
@@ -193,7 +204,7 @@
                 produce an opposite in composition. 
             </p>
             <h3><strong>Comparison of a Blend of Animals vs Starches</strong></h3>
-            <table class="table" style="color:white;">
+            <table class="table">
                 <thead>
                     <tr>
                         <th scope="col"></th>
@@ -362,7 +373,7 @@
                 superabundant in animal foods. 
             </p>
             <h3><strong>Animal Foods Means Calories From Fat and Protein</strong></h1>
-            <table class="table" style="color:white;">
+            <table class="table" >
                 <thead>
                     <tr>
                         <th scope="col"></th>
@@ -410,7 +421,7 @@
                 </tbody>
             </table>
             <h3><strong>Plant Foods Means Calories From Carbohydrates</strong></h1>
-            <table class="table" style="color:white;">
+            <table class="table" >
                 <thead>
                     <tr>
                         <th scope="col"></th>
@@ -548,8 +559,10 @@
             </p>
         </div>
       </div>
+    
 
 </main><!-- /.container -->
+<script src="js/navbarSearch.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="assets/dist/js/bootstrap.bundle.js"></script>
     </body>

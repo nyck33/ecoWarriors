@@ -1,3 +1,17 @@
+/*mark.js jump to highlight search words*/
+mark{
+  background: yellow;
+}
+
+mark.current{
+  background: orange;
+}
+
+input.searchbar{
+  width:20%;
+}
+
+
 /*bioshpere.css*/
 @font-face{
   font-family: 'Street Wars';
@@ -64,9 +78,6 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  
-  
 }
 /*starter*/
 body {
@@ -77,6 +88,10 @@ body {
   border:0;
   color:black;
 }
+
+main{
+  font-size: 130%;
+}
 a.navbar-brand{
   font-family: 'Urban Slick', sans-serif;
   border:none;
@@ -86,8 +101,6 @@ a.navbar-brand{
 main.container{
   padding-top:0px;
 }
-
-
 div.top-title{
   text-align:center;
   margin:0 auto;
@@ -96,7 +109,6 @@ div.top-title{
 }
 
 /*grid, row then col*/
-
 .themed-grid-col {
   padding-top: 15px;
   padding-bottom: 15px;

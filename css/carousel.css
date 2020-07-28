@@ -17,17 +17,26 @@ mark.current{
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+input.searchbar{
+  width:20%;
+}
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
   font-family: 'Urban slick', sans-serif;
+  
+}
+h2{
+  color: yellow;
 }
 
 a{
   color:yellow;
 }
-
+ul{
+  font-size:130%;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -39,11 +48,12 @@ a{
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
+ 
 }
 
 /* Declare heights because of positioning of img element */
 .carousel-caption{
-  color:hotpink;
+  color: red;
 }
 .carousel-item {
   height: 32rem;
@@ -64,13 +74,18 @@ a{
   height: auto;
 }
 
+div.carousel-item img{
+  margin: 0 auto;
+  width: 100%;
+  padding:50px;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
 .marketing{
-  color:hotpink;
+  color:red;
 }
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;

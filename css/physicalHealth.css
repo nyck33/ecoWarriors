@@ -1,3 +1,15 @@
+/*mark.js jump to highlight search words*/
+mark{
+  background: yellow;
+}
+
+mark.current{
+  background: orange;
+}
+
+input.searchbar{
+  width:20%;
+}
 @font-face{
     font-family: 'Street Wars';
     src:url("../public/fonts/'Street Wars Demo.ttf'")
@@ -124,8 +136,11 @@
     font-size: 105%;
   }
   table{
-    color: white;
+    
     font-size:150%;
+  }
+  .table{
+    color: yellow;
   }
   /*crop images, use % for height*/
   div > p > a > img{

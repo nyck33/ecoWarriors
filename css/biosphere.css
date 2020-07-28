@@ -1,3 +1,12 @@
+/*mark.js jump to highlight search words*/
+mark{
+  background: yellow;
+}
+
+mark.current{
+  background: orange;
+}
+
 /*bioshpere.css*/
 @font-face{
     font-family: 'Street Wars';
@@ -64,10 +73,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  
-    
-    
   }
+  input.searchbar{
+    width:20%;
+  }
+  
   /*starter*/
   body {
     height:100%;
