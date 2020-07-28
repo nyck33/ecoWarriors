@@ -98,10 +98,11 @@ input.searchbar{
 
 
 div.top-title{
-    text-align:center;
     margin:0 auto;
     border:0 auto;
     padding-top: 100px;
+    text-align: center;
+   /* background-image: url("../public/imgs/thinkers/johnMcD_portrait_sm.jpg");*/
 }
 
 div.author-portrait{
@@ -143,9 +144,10 @@ div.author-portrait{
       filter: alpha(opacity=100);
   }
   /*emphasis*/
-  h1 > em{
-    color: lime;
-    font-size: 200%;
+  h1.title-keyword{
+    text-align: center;
+    color: green;
+    font-size: 500%;
   }
   
   h1{

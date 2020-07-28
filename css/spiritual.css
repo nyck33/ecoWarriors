@@ -87,11 +87,10 @@ body {
   padding:0;
   border:0;
   color:black;
+  
 }
 
-main{
-  font-size: 130%;
-}
+
 a.navbar-brand{
   font-family: 'Urban Slick', sans-serif;
   border:none;
@@ -100,6 +99,7 @@ a.navbar-brand{
 
 main.container{
   padding-top:0px;
+  font-size: 130%;
 }
 div.top-title{
   text-align:center;
@@ -167,7 +167,7 @@ strong{
   font-size:150%;
 }
 
-a{
+main a{
   color: blue;
   font-size: 150%;
 }
