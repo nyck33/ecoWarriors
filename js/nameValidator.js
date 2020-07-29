@@ -8,7 +8,7 @@ function nameValidator(){
     //check input
     //if(x.value.match(letters)){
     if(letters.test(x)){
-        window.alert(x+' even if a 100% plant-based diet is out of reach, an "all or something" approach cuts through confusion, fusing cutting edge science'+
+        window.alert(x+', even if a 100% plant-based diet is out of reach, an "all or something" approach cuts through confusion, fusing cutting edge science'+
         ' with practical advice --from the Game Changers website');
         
         document.getElementById("secretMsg").innerHTML = x + ', click below for some quick and delicious'+' <br><a href="https://gamechangersmovie.com/food/">Game Changers Recipes</a>';
