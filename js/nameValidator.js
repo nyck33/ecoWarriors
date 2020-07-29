@@ -16,7 +16,7 @@ function nameValidator(){
     }
     else{
         window.alert('Please enter a valid name consisting only of a~z or A~Z');
-        document.getElementById("secretMsg").innerHTML =  '<img src="../public/imgs/animals/notVealCaption.png">';
+        document.getElementById("secretMsg").innerHTML =  '<img src="../public/imgs/animals/polar-bear.jpg">';
     }
     
 }
