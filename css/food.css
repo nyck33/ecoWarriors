@@ -137,9 +137,15 @@ div.top-title{
 }
   
   /*for bottom maps*/
-#map-tile1, #map-tile2, #map-tile3, #map-tile4, #pic-tile1, #pic-tile2, 
-#pic-tile3, #pic-tile4 {
-    height: 450px;
+#pic-tile1, #pic-tile2, #pic-tile3, #pic-tile4, #pic-tile5, #pic-tile6 {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+}
+#map-tile1, #map-tile2, #map-tile3, #map-tile4, #map-tile5, #map-tile6{
+    height: 400px;
     width: 100%;
     margin-bottom: 15px;
     position: relative;
@@ -147,7 +153,9 @@ div.top-title{
 }
 
 #map-tile1:hover, #map-tile2:hover, #map-tile3:hover, #map-tile4:hover,
-#pic-tile1:hover, #pic-tile2:hover, #pic-tile3:hover, #pic-tile4:hover{
+#map-tile5:hover, #map-tile6:hover,
+#pic-tile1:hover, #pic-tile2:hover, #pic-tile3:hover, #pic-tile4:hover
+#pic-tile5:hover, #pic-tile6:hover{
     box-shadow: 0 1px 5px 1px #cccccc;
 }
 
@@ -182,9 +190,6 @@ div.top-title{
     color:#fff;
     opacity:.8;
 }
-
-
-
 
 
 .quote{

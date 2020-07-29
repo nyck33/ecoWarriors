@@ -76,13 +76,30 @@
               <!--</form>-->
               
           </div>
-          </nav>
+    </nav>
   </header>
 <!--for mark.js-->
 <div class="panel panel-default">
 <div class="panel-body context">
 
 <main role="main">
+
+  <section class="name-validator-form">
+    <div class="row mb-3">
+      <div class="col-xl-12">
+        <h1><strong>Warning!</strong><br>
+          Very Graphic Images to Follow.  Continue at Your Own Risk.</h1>
+        <h4>If you just want plant-based recipes, please enter your name and click submit.</h4>
+
+        <div class="input-box">
+          <input id="nameInput">
+          <button type="button" onclick="nameValidator()">Submit</button>
+        </div>
+          
+          <p id="secretMsg"></p>
+      </div>
+    </div>
+  </section>
 
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -154,18 +171,7 @@
   </div>
 
 
-  <section class="name-validator-form">
-    <div class="row mb-3">
-      <div class="col-xl-12">
-        <h4>Please enter your name to get the secret message</h4>
-        <div class="input-box">
-          <input id="nameInput">
-          <button type="button" onclick="nameValidator()">Submit</button>
-        </div>
-          <p id="secretMsg"></p>
-      </div>
-    </div>
-  </section>
+  
 
   <!-- Marketing messaging and featurettes
   ================================================== -->
@@ -229,7 +235,7 @@
           On Mental Health from Dr. McDougall's site </a>
           In some people anxiety, depression, and fatigue are caused by allergic
           reactions to foods.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details
+        <p><a class="btn btn-secondary" href="mental.html" role="button">View details
         &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </section><!-- /.row -->
@@ -237,48 +243,46 @@
 
     <!-- START THE FEATURETTES -->
 
-    <hr class="featurette-divider">
+  <hr class="featurette-divider">
 
     <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">It's So Good, Let's Watch It Again <span
-        class="text-muted">The Science Backs It Up</span></h2>
+      <div class="col-md-6 order-md-1">
+        <h2>It's So Good, Let's Watch It Again.</h2>
         <p class="lead"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3761927/" target="_blank">
           Gladitors were mostly vegetarians and vegans</a></p>
           <p class="lead">The Game Changers is a 2018 documentary film about the
-            benefits of plant-based eating for athletes.It covers multiple
-            success stories of plant-based athletes, references scientific studies,
-            and touches on other arguments for plant-based diets that extend to
-            non-athletes.</p>
+            benefits of plant-based eating for athletes.</p>
+        <h3>The Science Backs It Up</h3>
       </div>
-      <div class="col-md-5">
-        <div class="embed-responsive embed-responsive-1by1 video-col">
+      <div class="col-md-6 order-md-2 youtube-embed">
+        <div class="embed-responsive embed-responsive-16by9 video-col">
           <iframe class="embed-responsive-item" 
           src="https://www.youtube.com/embed/8QahL8FCbsE" 
           allow="accelerometer; autoplay; encrypted-media; gyroscope;
           picture-in-picture"
             allowfullscreen ></iframe>
         </div>
+        
       </div>
-
-    <hr class="featurette-divider">
-    
+    </div>
+  </hr>
+  <hr class="featurette-divider">
     <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Eat This Not That <span
-        class="text-muted">Dr. McDougall’s Color Picture Book: Food Poisoning -
-        is available for <a href="https://www.drmcdougall.com/health/education/cpb/"
-        target="_blank">immediate free download in many different languages:</a>
-        </span></h2>
+      <div class="col-md-6 order-md-1">
+        <h2>Eat This Not That</h2>
       
         <p class="lead">Here is a short news clip about a woman in her 60's who turned around her health going 
           on a plant-based diet.
         <a href="https://www.youtube.com/embed/E58pqWHxAjI" target="_blank">
-        Youtube</a>
+        <br>Click Here</a>
+        </p>
+        <p class="lead">Dr. McDougall’s Color Picture Book: Food Poisoning -
+          is available for <a href="https://www.drmcdougall.com/health/education/cpb/"
+          target="_blank">immediate free download in many different languages:</a>
         </p>
       </div>
-      <div class="col-md-5 order-md-1">
-        <div class="embed-responsive embed-responsive-1by1 video-col">
+      <div class="col-md-6 order-md-2">
+        <div class="embed-responsive embed-responsive-16by9 video-col">
           <iframe class="embed-responsive-item" 
           src="https://www.youtube.com/embed/E58pqWHxAjI" 
           allow="accelerometer; autoplay; encrypted-media; gyroscope;
@@ -287,19 +291,18 @@
         </div>
       </div>
     </div>
-
-    <hr class="featurette-divider">
-
+  </hr>
+  <hr class="featurette-divider">
     <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">Dr.McDougall on the Food We Were Born To Eat <span
+      <div class="col-md-6">
+        <h2>Dr.McDougall on the Food We Were Born To Eat <span
         class="text-muted"><a href="www.tedxfremont.com">www.tedxfremont.com</a></span></h2>
         <p class="lead"> What food habits do all great civilizations have in common? John McDougall suggests that starch-based diets are the foods humans were born to eat. He has been studying, writing, and speaking out about the effects of nutrition on disease for over 40 years and is a bestselling author of several titles, including The Starch Solution.
           www.drmcdougall.com
           </p>
       </div>
-      <div class="col-md-5">
-        <div class="embed-responsive embed-responsive-1by1 video-col">
+      <div class="col-md-6">
+        <div class="embed-responsive embed-responsive-16by9 video-col">
           <iframe class="embed-responsive-item" 
           src="https://www.youtube.com/embed/d5wfMNNr3ak" 
           allow="accelerometer; autoplay; encrypted-media; gyroscope;
@@ -309,11 +312,10 @@
       </div>
     </div>
 
-    <hr class="featurette-divider">
+    
 
     <!-- /END THE FEATURETTES -->
-
-  </section><!-- /.container -->
+</hr><!-- /.container -->
 
 
   <!-- FOOTER -->

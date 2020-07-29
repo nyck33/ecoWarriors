@@ -27,22 +27,34 @@ body {
   font-family: 'Urban slick', sans-serif;
   
 }
+
+h1 strong{
+  color:red;
+  font-size: 200%;
+}
+
 h2{
-  color: yellow;
+  color:green;
+}
+a.nav-link{
+  font-size:100%;
 }
 a{
   color:yellow;
+  font-size: 130%;
 }
 ul.citation{
   font-size:130%;
 }
+section.name-validator-form {
+  margin:0 auto;
+  text-align: center;
+  padding-top:100px;
+}
+
 section.name-validator-form h4{
   font-size: 200%;
   color: green;
-  text-align: center;
-}
-section.name-validator-form {
-  margin:0 auto;
   text-align: center;
 }
 
@@ -61,16 +73,13 @@ section.name-validator-form p{
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
- 
 }
-
 /* Declare heights because of positioning of img element */
 .carousel-caption{
   color: red;
 }
 .carousel-item {
   height: 32rem;
-  
 }
 .carousel-item > img {
   position: absolute;
@@ -86,7 +95,6 @@ section.name-validator-form p{
 .carousel img{
   height: auto;
 }
-
 div.carousel-item img{
   margin: 0 auto;
   width: 100%;
@@ -128,6 +136,7 @@ div.carousel-item img{
 
 .featurette-divider {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  border:0;
 }
 
 /* Thin out the marketing headings */
@@ -136,7 +145,11 @@ div.carousel-item img{
   line-height: 1;
   letter-spacing: -.05rem;
 }
-
+div.caption{
+  color:green;
+  font-size: 150%;
+  text-align: center;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
