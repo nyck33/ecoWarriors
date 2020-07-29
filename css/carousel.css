@@ -62,6 +62,9 @@ section.name-validator-form p{
   color:green;
   font-size:200%;
 }
+#secretMsg{
+  padding-top: 50px;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -173,7 +176,6 @@ div.caption{
   }
 }
 
-/*parallax*/
 /*parallax*/
 html {
   height: 100%;
