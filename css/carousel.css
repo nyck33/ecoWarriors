@@ -36,6 +36,20 @@ a{
 ul.citation{
   font-size:130%;
 }
+section.name-validator-form h4{
+  font-size: 200%;
+  color: green;
+  text-align: center;
+}
+section.name-validator-form {
+  margin:0 auto;
+  text-align: center;
+}
+
+section.name-validator-form p{
+  color:red;
+  font-size:200%;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 

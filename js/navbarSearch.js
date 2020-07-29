@@ -5,6 +5,7 @@
   var keywordInput = document.querySelector("input[name='keyword']");
   var optionInputs = document.querySelectorAll("input[name='opt[]']");
   
+  
   function performMark() {
   
     // Read the keyword
