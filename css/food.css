@@ -1,15 +1,15 @@
 /*mark.js jump to highlight search words*/
 mark{
     background: yellow;
-  }
-  
-  mark.current{
+}
+
+mark.current{
     background: orange;
-  }
-  
-  input.searchbar{
+}
+
+input.searchbar{
     width:20%;
-  }
+}
 /*lecture 37 coursera*/
 @font-face{
     font-family: 'Street Wars';
