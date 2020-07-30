@@ -136,7 +136,7 @@ div.top-title{
   
   /*for bottom maps*/
 #pic-tile1, #pic-tile2, #pic-tile3, #pic-tile4, #pic-tile5, #pic-tile6 {
-    height: 250px;
+    height: 350px;
     width: 100%;
     margin-bottom: 15px;
     position: relative;
@@ -163,7 +163,7 @@ div.top-title{
 }
 
 #pic-tile2{
-    background: url('../public/imgs/food/veganKFCStore.jpeg') no repeat;
+    background: url('../public/imgs/food/naturesFareMkt.png') no repeat;
     background-position: center;
 }
 #pic-tile3{
