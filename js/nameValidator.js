@@ -36,6 +36,7 @@ window.onload = function(){
         //non-alpha entry
         else{
             var newImg = document.createElement("img");
+            newImg.class = "img-fluid";
             newImg.id = "newImg";
             newImg.src = "https://nyck33.github.io/ecoWarriors/public/imgs/animals/polarbearCaption.jpg";
             currDiv.appendChild(newImg);
