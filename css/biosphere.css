@@ -119,7 +119,9 @@ div.top-title{
   font-family:'Urban Slick', sans-serif;
   padding: 5%;
 }
-  
+p{
+  color:white;
+}
 /*crop images, use % for height*/
 div > p > a > img{
     margin:auto;
